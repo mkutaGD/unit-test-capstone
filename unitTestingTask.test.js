@@ -45,3 +45,4 @@ test('change language with options', () => {
 
     expect(unitTestingTask._languages.pl.months[0]).toBe('styczeń');
 })
+
