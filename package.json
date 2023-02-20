@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Unit testing task",
   "scripts": {
-    "test": "jest"
+    "test": "SET TZ='Asia/Jerusalem' && jest --runInBand --forceExit"
   },
   "devDependencies": {
     "jest": "^29.4.1"
